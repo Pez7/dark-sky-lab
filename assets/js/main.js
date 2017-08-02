@@ -8,6 +8,10 @@ $(document).ready(function() {
 	})
 	.done(function(data) {
 		console.log(data);
+		var tempAct = data.currently.apparentTemperature;
+		var wind = data.currently.windSpeed;
+		var humidity = 
+			$('#humidity').append(humidity + '%');
 
 	})
 	.fail(function() {
