@@ -1,4 +1,12 @@
-@mixin background (){
+@mixin fondo(){
 	background-size:cover;
 	background-repeat:no-repeat;
+
+}
+
+@mixin main(){
+	background-color:black;
+	opacity:0.5;
+	color:#fff;
+	font-family:$roboto;
 }

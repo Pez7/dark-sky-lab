@@ -2,23 +2,21 @@ body{
 	margin:0;
 	padding:0;
 	background-image:url(../img/sun-in-blue-sky-with-cloud-and-tree.jpg);
-	@include background();
+	@include fondo();
 }
 nav{
 	background-color: transparent;
 }
 section#back-uno{
-	background-color:black;
-	opacity:0.5;
-	color:#fff;
-	font-family:$roboto;
+@include main();
 }
 #current{
 	font-size:30px;
 }
 #temp-act{
 	font-size:15px;
+	margin-top:-52px;
 }
 #semanal{
-	margin-top:10px;
+	margin-top:-19px;
 }
